@@ -14,7 +14,7 @@ $ku('.btn-kirim').pas('click', function(btn) {
             'padding' : '3rem'
         });
 
-        $elek('body').innerHTML = `<p>Terima kasih, ${form_saya}</p>`;
+        $elek('body').innerHTML = `<p>Terima kasih, ${form_saya}.</p>`;
 
         $ku('body p').css({
             'font-size' : '22px'
