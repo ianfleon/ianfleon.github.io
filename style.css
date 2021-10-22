@@ -102,9 +102,9 @@ a:hover {
 
 @media screen and (max-width: 680px) {
     .icon-wrapper {
-        /* flex-direction: column; */
+        flex-direction: column;
     }
     .icon-wrapper img {
-        width: 100% !important;
+        width: 50% !important;
     }
 }
